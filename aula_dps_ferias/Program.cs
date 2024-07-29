@@ -1,9 +1,9 @@
-﻿using System;
+﻿using aula_dps_ferias.forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace aula_dps_ferias
 {
     static class Program
@@ -16,7 +16,7 @@ namespace aula_dps_ferias
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmPrincipal());
         }
     }
 }
